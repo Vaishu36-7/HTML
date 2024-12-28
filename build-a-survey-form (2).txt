@@ -1,0 +1,39 @@
+** start of undefined **
+
+<h1 id="title">Survey form<h1>
+<p id="description">logic</p>
+<form id="survey-form">
+<label id="name-label">name<input id="name" type="text" name="name" placeholder="your name" required /></label>
+<label id="email-label">Email<input id="email" type="email" name="email" placeholder="your email" required /></label>
+<label id="number-label">Number<input id="number" type="number" name="number" min="10" max="12" placeholder="your contact no" required /></label>
+<div>
+<select id="dropdown">
+  <option value="20" type="age">age</option>
+  <option value="30" type="age">20</option>
+  <option value="30" type="age">30</option>
+  </select>
+  </div>
+<fieldset>locality
+  <div>
+<label for="indian">Indian<input id="indian" type="radio" name="locality" value="indian"></input></label>
+<label for="NRI">NRI<input id="NRI" type="radio" name="locality" value="NRI"></input></label>
+</div></fieldset>
+<fieldset>skills
+<div>
+  <label for="coding">coding<input id="coding" name="skills" type="checkbox" value="coding"></input></label>
+  </div>
+  <div>
+  <label for="web development">web development<input id="web development" name="skills" type="checkbox" value="web development" required></input></label>
+  </div>
+  </fieldset>
+  <textarea></textarea>
+<input id="submit" type="submit" value="Submit" />
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
